@@ -1,0 +1,11 @@
+## install vs code
+ sudo snap install --classic  code
+python manage.py createsuperuser
+python manage.py migrate
+### para ejecutar docke-compose.yml
+docker-compose up --build
+### para visualizar los contenedores de docker activos
+doker ps
+### para entra al directorio de trabajo del contenedor docker
+docker exec -it $container_id bash -l
+
